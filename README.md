@@ -12,29 +12,6 @@ Maven version >= 3.8.x
 
 Available microservices:
 
-<img src="./documentation/img/schema_archi.png" />
-
-The blue part in the schema is part of the project <https://github.com/trodix/activemq-jms-client>
-
-#### **Postgresql**
-
-> Database for keycloak
-
-Port `5432`
-
-#### **Keycloak**
-
-> Authentication server (SSO)
-
-Port `8080` for web ui
-
-#### **OpenLDAP**
-
-> Users and Groups source (synchronized with Keycloak)
-
-port LDAP `1389`
-
-port LDAPS `1636`
 
 #### **Prometheus**
 
